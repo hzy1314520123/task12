@@ -106,6 +106,7 @@ header {
   color: #cccccc;
 }
 .secop1 {
+  min-height:49px;
   align-items: center;
   display: flex;
   border-bottom: solid 1px #cccccc;
