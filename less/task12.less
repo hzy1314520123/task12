@@ -1,0 +1,168 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+
+//common
+@colora:white;
+@colorb:red;
+@bgc:#5AC0CE;
+@colorc:#ccc;
+@borders:solid;
+@borderw:1px;
+@fonta:20px;
+@scoph:3rem;
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+
+
+
+
+
+header{
+    font-weight: bold;
+    color: @colora;
+    text-align: center;
+    height: @scoph;
+    line-height: @scoph;
+    background-color: @bgc;
+}
+
+.icon-left{
+    font-size: @fonta;
+    padding-left: 0.6rem;
+    .fl;
+}
+
+.bar{
+    height: 9rem;
+    background:url(../img/task5-1_02.png) left no-repeat;
+    background-size: 100%;
+}
+/* peasdfasdf 
+ -----------------------------------------*/
+.details{
+    padding: 2rem 9.5vw;
+    height: 5.5rem;
+    color: @colora;
+    font-weight: bold;
+    font-family: "微软雅黑" "microsoft yahei";
+    h4{
+        margin-top: 0.5rem;
+    };
+}
+.headportrait{
+    .fl;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    height:5rem;
+    width: 5rem;
+    background:url(../img/task5-1_03_03.png)  left no-repeat;
+    background-size: 100%;
+}
+
+.details-bottom{
+    font-size: 0.8rem;
+}
+.details-bottom a{
+    padding-top: 0.5rem;
+    margin-right: 0.2rem;
+    .fl;
+    height: 0.7rem;
+    width: 0.7rem;
+    background: url(../img/task5-1_01123_03.png) left no-repeat;
+    background-size: 100%;
+}
+.middle-part{
+    line-height: 4rem;
+    height: 4rem;
+}
+.middle-part span{
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+    border-left: @borders 0.3rem @bgc;
+}
+.option{
+    font-family: "微软雅黑" "microsoft yahei";  
+    padding-left: 2rem;
+}
+.fisrtop{
+    height: 4rem;
+    line-height: 4rem;
+    font-weight: bold;
+    border-bottom: @borders @borderw @colorc;
+}
+.fisrtop span{
+    padding-right: 0.5rem;
+    color: @colorb;
+}
+.secop{
+    height: @scoph;
+    line-height: @scoph;
+    border-bottom: @borders @borderw @colorc;
+}
+.secop span{
+    padding: 0 1rem;
+    border-right: @borders @borderw @colorc;
+    color: @colorc;
+}
+.secop3{
+    height: @scoph;
+    line-height: @scoph;
+   border-bottom: @borders @borderw @colorc;
+    color: @colorb;
+}
+.secop3 span{
+    padding: 0 1rem;
+    border-right:@borders @borderw @colorc;
+    color: @colorc;
+}
+.secop1{
+    align-items: center;
+    display: flex;
+    border-bottom: @borders @borderw @colorc;
+}
+.content{
+    flex:none ;
+    line-height:auto;
+    padding: 0 1rem;
+    margin-right: 1rem;
+    border-right: @borders @borderw @colorc;
+    color: @colorc;
+}
+.content1{
+    flex: 1;
+}
+.footer{
+    text-align: center;
+    margin-top: @scoph;
+    height: 5rem;
+}
+.leavemg,.phonecc {
+    border-radius: 0.7rem;
+    .fl;
+    border: @borders 2px @bgc;
+    height: @scoph;
+    line-height: @scoph;
+    width: 46%;
+}
+.phonecc{
+    color: @colora;
+    background-color: @bgc;
+    margin-right: 0.4rem;
+    .fr;
+}
+.leavemg{
+    color: @bgc;
+    margin-left: 0.4rem;
+}

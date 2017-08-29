@@ -1,0 +1,147 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+header {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #5ac0ce;
+}
+.icon-left {
+  font-size: 20px;
+  padding-left: 0.6rem;
+  float: left;
+}
+.bar {
+  height: 9rem;
+  background: url(../img/task5-1_02.png) left no-repeat;
+  background-size: 100%;
+}
+/* peasdfasdf 
+ -----------------------------------------*/
+.details {
+  padding: 2rem 9.5vw;
+  height: 5.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "微软雅黑" "microsoft yahei";
+}
+.details h4 {
+  margin-top: 0.5rem;
+}
+.headportrait {
+  float: left;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  background: url(../img/task5-1_03_03.png) left no-repeat;
+  background-size: 100%;
+}
+.details-bottom {
+  font-size: 0.8rem;
+}
+.details-bottom a {
+  padding-top: 0.5rem;
+  margin-right: 0.2rem;
+  float: left;
+  height: 0.7rem;
+  width: 0.7rem;
+  background: url(../img/task5-1_01123_03.png) left no-repeat;
+  background-size: 100%;
+}
+.middle-part {
+  line-height: 4rem;
+  height: 4rem;
+}
+.middle-part span {
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  border-left: solid 0.3rem #5ac0ce;
+}
+.option {
+  font-family: "微软雅黑" "microsoft yahei";
+  padding-left: 2rem;
+}
+.fisrtop {
+  height: 4rem;
+  line-height: 4rem;
+  font-weight: bold;
+  border-bottom: solid 1px #cccccc;
+}
+.fisrtop span {
+  padding-right: 0.5rem;
+  color: #ff0000;
+}
+.secop {
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: solid 1px #cccccc;
+}
+.secop span {
+  padding: 0 1rem;
+  border-right: solid 1px #cccccc;
+  color: #cccccc;
+}
+.secop3 {
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: solid 1px #cccccc;
+  color: #ff0000;
+}
+.secop3 span {
+  padding: 0 1rem;
+  border-right: solid 1px #cccccc;
+  color: #cccccc;
+}
+.secop1 {
+  align-items: center;
+  display: flex;
+  border-bottom: solid 1px #cccccc;
+}
+.content {
+  flex: none ;
+  line-height: auto;
+  padding: 0 1rem;
+  margin-right: 1rem;
+  border-right: solid 1px #cccccc;
+  color: #cccccc;
+}
+.content1 {
+  flex: 1;
+}
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  height: 5rem;
+}
+.leavemg,
+.phonecc {
+  border-radius: 0.7rem;
+  float: left;
+  border: solid 2px #5ac0ce;
+  height: 3rem;
+  line-height: 3rem;
+  width: 46%;
+}
+.phonecc {
+  color: #ffffff;
+  background-color: #5ac0ce;
+  margin-right: 0.4rem;
+  float: right;
+}
+.leavemg {
+  color: #5ac0ce;
+  margin-left: 0.4rem;
+}

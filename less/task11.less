@@ -1,0 +1,92 @@
+
+//header
+
+@acolor:white;
+@fonta:20px;
+@h:40px;
+@bgc:#5AC0CE;
+@bdbgc:#eff0f4;
+body a{
+    text-decoration: none;
+}
+body{
+    background-color: @bdbgc;
+}
+header{
+    padding:10px;
+    line-height: @h;
+    overflow: hidden;
+    text-align: center;
+    height: @h;
+    background-color: @bgc;
+    a{  
+        font-weight: bold;
+        color: @acolor;
+    }
+}
+.register{
+    font-size: 16px;
+    float: left;
+}
+.center{
+    font-size:@fonta;
+    margin: 0 auto;
+}
+.close{
+    font-size: 16px;
+    float: right;
+}
+//phone
+.phonenb,.passwordone{
+    line-height: 60px;
+    margin-top: 15px;
+    background-color: white;
+    height: 60px;
+}
+.icon-phone ,.icon-lock{
+      float: left;
+      border-right:solid 1px #ccc ;
+      display: inline-block;
+      margin-top: 10px;
+      width: 50px;
+      height: 40px;
+  }
+  
+ .icon-phone{
+     background: url(../img/登陆_03.png) center no-repeat;
+     background-size: 35%;
+ }
+ .icon-lock{
+     background: url(../img/登陆_06.png) center no-repeat;
+     background-size: 35%;
+ }
+input{
+    margin-left: 18px;
+    border: none;
+    outline: medium;
+}
+//login
+.login{
+    margin-top: 20px;
+    line-height:@h ;
+    text-align: center;
+    background-color: @bgc;
+    height: @h;
+     a{  
+        font-size: @fonta;
+        font-weight: bold;
+        color: @acolor;
+    }
+}
+
+//foget
+.forget{
+    margin: 20px 20px 0 0;
+    float: right;
+   
+    a{
+        color: @bgc;
+        font-size: @fonta;
+        font-weight: bold;
+    }
+}

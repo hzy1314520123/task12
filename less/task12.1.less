@@ -1,0 +1,231 @@
+body p {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+//common
+@colora: white;
+@colorb: red;
+@bgc: #5AC0CE;
+@colorc: #ccc;
+@borders: solid;
+@borderw: 1px;
+@fonta: 20px;
+@fontb:18px;
+@fontc:28px;
+@scoph: 3rem;
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/*头部部分 */
+
+main {
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+header {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: @bgc;
+}
+
+.headpart {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.emple,
+.nurworker {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 50%;
+   .fl;
+}
+
+.emple {
+    color: @colora;
+    background-color: #54A7B2;
+}
+
+.nurworker {
+    margin-left: -3px;
+    color: @bgc;
+    background-color: @colora;
+}
+
+.icon-map_map {
+    position: absolute;
+    right: 3%;
+    top: 28%;
+    color: @colora;
+    font-size: 24px;
+}
+
+
+/*下拉列表*/
+
+.navpart {
+    overflow: hidden;
+    text-align: center;
+    border-bottom: @borders @borderw @colorc;
+}
+
+.adress,
+.rab,
+.patient {
+    position: relative;
+    padding: 15px 2px;
+    line-height: 20px;
+    font-size: @fontb;
+    font-weight: bold;
+    color: @colorc;
+    border-right: @borders @borderw @colorc;
+    .fl ;
+    width: 33.33%;
+}
+
+.patient {
+    border-right: none;
+}
+
+.icon-xialajiantouxiangxia {
+    position: absolute;
+    right: 10px;
+    color: #8C8C8C;
+    font-size: 16px;
+}
+
+
+/*主题部分*/
+
+.cetion {
+    overflow: hidden;
+    border-bottom: @borders @borderw @colorc;
+}
+
+.sidebar_a {
+    font-size: 18px;
+    padding:5px 5px 5px 15px;
+    line-height: 20px;
+    .fl ;
+    .sidebarp2{
+        color: #3C3C3C;
+        margin-left: 25px;
+    }
+}
+
+
+.sidebar_a p {
+    padding: 5px 0;
+    font-size: 18px;
+    color: #C0C0C0;
+}
+
+.sidebar_b {
+    font-size: 18px;
+   .fr;
+}
+
+.icon-rili,
+.icon-mp-location {
+    color: #C0C0C0;
+    margin: 0 0.6rem;
+}
+
+.sidebar_b {
+    margin-top: 38.5px;
+    color: @colorb;
+}
+
+.icon-xiangyou {
+    color: @bgc;
+}
+
+
+/*尾部菜单*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: @bgc;
+    background-color: #F9FAFC;
+    height: 68px;
+}
+
+.page,
+.mine {
+    text-align: center;
+}
+
+.page {
+    position: absolute;
+    top: 4px;
+    left: 24%;
+}
+
+.page p {
+    font-size: 16px;
+    margin-top: -3px;
+    width: 100%;
+}
+
+.icon-shouye {
+    color: @bgc;
+    width: 100%;
+    font-size: @fontc;
+}
+
+.icon-wode {
+    color: #8C8C8C;
+    width: 100%;
+    font-size: @fontc;
+}
+
+.mine {
+    position: absolute;
+    right: 24%;
+    top: 4px;
+    color: #8C8C8C;
+}
+
+.mine p {
+    margin-top: -3px;
+    font-size: 16px;
+}
+
+.compail {
+    margin: 0 auto;
+    margin-top: 7px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: @bgc;
+}
+
+.icon-bianji2 {
+    padding-top: 7px;
+    color: @colora;
+    font-size: @fontc;
+}

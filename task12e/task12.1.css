@@ -1,0 +1,180 @@
+body p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  position: relative;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+/*头部部分 */
+main {
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+header {
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #5ac0ce;
+}
+.headpart {
+  width: 200px;
+  margin: 0 auto;
+}
+.emple,
+.nurworker {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 50%;
+  float: left;
+}
+.emple {
+  color: #ffffff;
+  background-color: #54A7B2;
+}
+.nurworker {
+  margin-left: -3px;
+  color: #5ac0ce;
+  background-color: #ffffff;
+}
+.icon-map_map {
+  position: absolute;
+  right: 3%;
+  top: 28%;
+  color: #ffffff;
+  font-size: 24px;
+}
+/*下拉列表*/
+.navpart {
+  overflow: hidden;
+  text-align: center;
+  border-bottom: solid 1px #cccccc;
+}
+.adress,
+.rab,
+.patient {
+  position: relative;
+  padding: 15px 2px;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #cccccc;
+  border-right: solid 1px #cccccc;
+  float: left;
+  width: 33.33%;
+}
+.patient {
+  border-right: none;
+}
+.icon-xialajiantouxiangxia {
+  position: absolute;
+  right: 10px;
+  color: #8C8C8C;
+  font-size: 16px;
+}
+/*主题部分*/
+.cetion {
+  overflow: hidden;
+  border-bottom: solid 1px #cccccc;
+}
+.sidebar_a {
+  font-size: 18px;
+  padding: 5px 5px 5px 15px;
+  line-height: 20px;
+  float: left;
+}
+.sidebar_a .sidebarp2 {
+  color: #3C3C3C;
+  margin-left: 25px;
+}
+.sidebar_a p {
+  padding: 5px 0;
+  font-size: 18px;
+  color: #C0C0C0;
+}
+.sidebar_b {
+  font-size: 18px;
+  float: right;
+}
+.icon-rili,
+.icon-mp-location {
+  color: #C0C0C0;
+  margin: 0 0.6rem;
+}
+.sidebar_b {
+  margin-top: 38.5px;
+  color: #ff0000;
+}
+.icon-xiangyou {
+  color: #5ac0ce;
+}
+/*尾部菜单*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #5ac0ce;
+  background-color: #F9FAFC;
+  height: 68px;
+}
+.page,
+.mine {
+  text-align: center;
+}
+.page {
+  position: absolute;
+  top: 4px;
+  left: 24%;
+}
+.page p {
+  font-size: 16px;
+  margin-top: -3px;
+  width: 100%;
+}
+.icon-shouye {
+  color: #5ac0ce;
+  width: 100%;
+  font-size: 28px;
+}
+.icon-wode {
+  color: #8C8C8C;
+  width: 100%;
+  font-size: 28px;
+}
+.mine {
+  position: absolute;
+  right: 24%;
+  top: 4px;
+  color: #8C8C8C;
+}
+.mine p {
+  margin-top: -3px;
+  font-size: 16px;
+}
+.compail {
+  margin: 0 auto;
+  margin-top: 7px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #5ac0ce;
+}
+.icon-bianji2 {
+  padding-top: 7px;
+  color: #ffffff;
+  font-size: 28px;
+}
