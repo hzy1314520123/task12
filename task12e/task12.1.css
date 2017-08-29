@@ -34,7 +34,7 @@ header {
 .emple,
 .nurworker {
   margin: 10px 0;
-  padding: 10px;
+  padding: 10px 0;
   font-size: 20px;
   border-radius: 5px;
   width: 50%;
@@ -66,14 +66,14 @@ header {
 .rab,
 .patient {
   position: relative;
-  padding: 15px 2px;
+  padding: 15px 0;
   line-height: 20px;
   font-size: 18px;
   font-weight: bold;
   color: #cccccc;
   border-right: solid 1px #cccccc;
   float: left;
-  width: 33.33%;
+  width: 33%;
 }
 .patient {
   border-right: none;
