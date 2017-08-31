@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-size: 16px;
 }
+body a{
+	text-decoration: none;
+}
 .fl {
   float: left;
 }
@@ -21,6 +24,9 @@ header {
   font-size: 20px;
   padding-left: 0.6rem;
   float: left;
+}
+.icon-left a{
+	color: white;
 }
 .bar {
   height: 9rem;
